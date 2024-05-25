@@ -1,0 +1,50 @@
+input::placeholder {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact input[type="text"] {
+  border: 2px solid #ffffff; /* Borde blanco para contraste */
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/*.contact input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  color: white;
+  font-size: 12px;
+  z-index: 1000;
+}*/
+
+.contact input[type="submit"] {
+  border: 2px solid #ffffff; /* Borde blanco para contraste */
+  border-radius: 25px; /* Bordes redondeados */
+  margin-top: 10px; /* Espacio entre el último campo de texto y el botón */
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #000000;
+  border: 2px solid transparent;
+  color: white;
+  font-size: 12px;
+  z-index: 1000;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #333333;
+  border: 3px solid #fa4529; /* Borde naranja al pasar el cursor */
+}

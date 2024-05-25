@@ -1,0 +1,74 @@
+/* ThemeSwitcher.css */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Media query for tablets and larger screens */
+@media (max-width: 768px) {
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    top: 30px;
+    right: 15px;
+  }
+}
+
+/* Media query for smartphones */
+@media (max-width: 480px) {
+  button {
+    padding: 6px 12px;
+    font-size: 12px;
+    top: 25px;
+    right: 10px;
+  }
+}
+
+/*button {
+  display: block;
+  margin: 20px auto;
+  /*padding: 10px 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  color: white;
+  /*font-size: 16px;
+  font-size: 12px;
+  /*position: fixed;
+  top: 35px;
+  right: 20px;
+  z-index: 1000;
+  }*/
+
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 10px; /* Ajustado para un tamaño cómodo */
+  cursor: pointer;
+  background-color: #000000;
+  border: 2px solid #ffffff; /* Borde blanco para contraste */
+  border-radius: 25px; /* Bordes redondeados */
+  color: white;
+  font-size: 14px; /* Tamaño de fuente intermedio */
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+}
+
+/*button:hover {
+  background-color: #fa4529;
+}*/
+
+button:hover {
+  background-color: #333333;
+  border-color: #fa4529; /* Cambia el color del borde al pasar el mouse */
+}
+
